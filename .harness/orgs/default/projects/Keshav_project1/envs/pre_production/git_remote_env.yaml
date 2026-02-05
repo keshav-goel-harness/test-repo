@@ -1,0 +1,6 @@
+environment:
+  name: git_remote_env
+  identifier: git_remote_env
+  orgIdentifier: default
+  projectIdentifier: Keshav_project1
+  type: PreProduction

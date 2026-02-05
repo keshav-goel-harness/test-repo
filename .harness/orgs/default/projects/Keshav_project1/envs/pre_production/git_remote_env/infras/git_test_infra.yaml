@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: git_test_infra
+  identifier: git_test_infra
+  orgIdentifier: default
+  projectIdentifier: Keshav_project1
+  environmentRef: git_remote_env
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: conn1
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: false

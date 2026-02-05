@@ -1,0 +1,6 @@
+overrides:
+  variables:
+    - name: test_qa
+      type: Number
+      value: 12345.0
+      required: false

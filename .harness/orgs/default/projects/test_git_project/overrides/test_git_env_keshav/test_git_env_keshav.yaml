@@ -1,10 +1,6 @@
 overrides:
   variables:
-    - name: test_qa
+    - name: test1
       type: Number
-      value: 12345.0
-      required: false
-    - name: test_qa2
-      type: Number
-      value: 123.0
+      value: 1234.0
       required: false

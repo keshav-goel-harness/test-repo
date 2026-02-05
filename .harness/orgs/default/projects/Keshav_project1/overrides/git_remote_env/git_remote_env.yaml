@@ -4,3 +4,7 @@ overrides:
       type: Number
       value: 1.0
       required: false
+    - name: test2
+      type: Number
+      value: 124.0
+      required: false
